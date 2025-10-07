@@ -233,11 +233,12 @@ ul{
     display: flex;
     flex-direction: column;
     background-color: #FFE3E8;
-    width: 327px;
-    height: auto;
+    max-width: 327px;
+    max-height: fit-content;
     position: absolute;
     z-index: 1;
-    left: 20vw;
+    left: 22vw;
+    padding-bottom: 20px;
 
 }
 .sidebar-mobile-menu>.company-logo-mobile{
@@ -367,7 +368,7 @@ ul{
     justify-content: center;
     align-items: center;
     height: fit-content;
-    width: fit-content;
+    max-width: 100%;
     gap: 24px;
 }
     .heading-container{
