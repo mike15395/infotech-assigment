@@ -56,9 +56,9 @@ ul{
 .hero-section{
     background-image: linear-gradient(to left,#FFE4E9 0%,#FFCBD4 100%);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 809px;
-    width:100%;
+    width: 100%;
 }
 .underline-img{
     width: 363px;
@@ -70,16 +70,13 @@ ul{
     width: 350px;
     height: 117px;
     position: absolute;
-    top: 480px;
+    top: 400px;
     right: 325px;
 }
 .image-section{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end; */
     position: relative;
     margin-top: 90px;
-   
+    margin-left: -110px;
 }
 
 .lady-image{
@@ -237,10 +234,10 @@ ul{
     flex-direction: column;
     background-color: #FFE3E8;
     width: 327px;
-    height: 100%;
+    height: auto;
     position: absolute;
     z-index: 1;
-    left: 13vw;
+    left: 20vw;
 
 }
 .sidebar-mobile-menu>.company-logo-mobile{
@@ -398,6 +395,8 @@ ul{
 }
 .image-section{
    position: relative;
+       left: 50px;
+
     
 }
 
